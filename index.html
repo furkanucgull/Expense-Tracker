@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense-Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Expense Tracker App</h1>
+    <div class="category">
+      <label for="categories">Categories :</label>
+      <select id="categories" name="categories">
+        <option value="option1">Transportation</option>
+        <option value="option2">Groceries</option>
+        <option value="option3">Holiday</option>
+        <option value="option4">Bills</option>
+      </select>
+      <label for="amount">Amount :</label>
+      <input type="number" />
+      <label for="date">Date :</label>
+      <input type="date" />
+      <button class="btn-add">Add</button>
+    </div>
+    <div class="table">
+      <table>
+        <tr>
+          <th>Category</th>
+          <th>Amount</th>
+          <th>Date</th>
+          <th>Delete</th>
+        </tr>
+        <tr>
+          <td>Total:</td>
+          <td></td>
+          <td></td>
+          <td id="td-delete"><button class="delete-btn">Delete</button></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
