@@ -11,32 +11,35 @@
     <div class="category">
       <label for="categories">Categories :</label>
       <select id="categories" name="categories">
-        <option value="option1">Transportation</option>
-        <option value="option2">Groceries</option>
-        <option value="option3">Holiday</option>
-        <option value="option4">Bills</option>
+        <option value="Transportation">Transportation</option>
+        <option value="Groceries">Groceries</option>
+        <option value="Holiday">Holiday</option>
+        <option value="Bills">Bills</option>
       </select>
       <label for="amount">Amount :</label>
-      <input type="number" />
+      <input type="number" class="amount" />
       <label for="date">Date :</label>
-      <input type="date" />
+      <input type="date" class="date" />
       <button class="btn-add">Add</button>
     </div>
-    <div class="table">
-      <table>
-        <tr>
-          <th>Category</th>
-          <th>Amount</th>
-          <th>Date</th>
-          <th>Delete</th>
-        </tr>
-        <tr>
-          <td>Total:</td>
-          <td></td>
-          <td></td>
-          <td id="td-delete"><button class="delete-btn">Delete</button></td>
-        </tr>
-      </table>
+    <div class="table-container">
+      <div class="cost-table">
+        <table class="table-list">
+          <tr>
+            <th>Category</th>
+            <th>Amount</th>
+            <th>Date</th>
+            <th>Delete</th>
+          </tr>
+          <tr>
+            <td>Total :</td>
+            <td></td>
+            <td></td>
+            <td id="td-delete"><button class="delete-btn">Delete</button></td>
+          </tr>
+        </table>
+      </div>
     </div>
   </body>
+  <script src="app.js"></script>
 </html>
