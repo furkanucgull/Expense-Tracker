@@ -56,15 +56,15 @@ label {
 }
 table {
   width: 100%;
-  border-collapse: collapse;
 }
 
 th,
 td {
   padding: 12px 15px;
-  text-align: left;
   border-right: 1px solid #dddddd;
   font-weight: bold;
+  align-items: center;
+  justify-content: center;
 }
 
 th {
@@ -91,6 +91,8 @@ tr:hover {
   border: none;
   padding: 8px 12px;
   border-radius: 4px;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
 }
 
@@ -98,7 +100,11 @@ tr:hover {
   background-color: #c0392b;
 }
 .total {
-  text-align: end;
-  margin-right: 250px;
-  font-weight: bold;
+  border: solid 2px rgb(70, 66, 207);
+  text-align: center;
+  border-radius: 12px;
+}
+.total:hover {
+  background-color: #c0392b;
+  transition: 0.5s;
 }
