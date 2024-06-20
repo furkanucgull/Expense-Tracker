@@ -76,9 +76,15 @@ td {
 }
 
 th {
-  background-color: #009879;
-  color: #ffffff;
+  background-color: rgba(9, 200, 238, 0.8);
+  color: black;
   font-weight: bold;
+  border-radius: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+th:hover {
+  color: white;
+  transition: 0.7s;
 }
 
 tr {
