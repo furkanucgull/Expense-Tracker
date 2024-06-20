@@ -10,7 +10,7 @@
 ### Usage
 #### Installation
 ##### Clone this repository to your local machine or download it as a ZIP file.
-###### git clone https://github.com/furkanucgull/expense-tracker.git
+###### git clone [https://github.com/furkanucgull/expense-tracker.git](https://github.com/furkanucgull/Expense-Tracker.git)
  ##### Open index.html in a web browser to launch the application.
 
 ##### Usage Steps
